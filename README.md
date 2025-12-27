@@ -4,14 +4,14 @@
 ---
 
 ## 🔍 Overview
-This project demonstrates an end-to-end data analytics workflow focused on analyzing customer shopping behavior. It includes data ingestion, data cleaning, exploratory data analysis (EDA), SQL-based querying, business intelligence dashboard development, and reporting.
+In this project, I implemented an end-to-end data analytics workflow to analyze customer shopping behavior. I worked across the complete analytics lifecycle, including data ingestion, data cleaning, exploratory data analysis (EDA), SQL-based querying, business intelligence dashboard development, and reporting.
 
-The project highlights practical skills in data analysis, data visualization, business intelligence, and SQL analytics, making it suitable for **Data Analyst**, **Business Analyst**, and **BI Analyst** roles.
+Through this project, I gained hands-on experience in data analysis, exploratory data analysis (EDA), SQL querying, business intelligence, and data visualization, aligning my skill set with **Data Analyst**, **Business Analyst**, and **BI Analyst** roles.
 
 ---
 
 ## 📁 Dataset
-The dataset contains structured customer transaction data, including:
+I worked with a structured customer transaction dataset containing:
 - Customer demographics  
 - Purchase frequency and spending behavior  
 - Product and category details  
@@ -23,8 +23,8 @@ The dataset contains structured customer transaction data, including:
 
 ## 🛠 Tools & Technologies
 - **Python** (Pandas, NumPy, Matplotlib, Seaborn)
-- **SQL** (PostgreSQL, MySQL, SQL Server)
-- **Power BI** (Dashboards, slicers, DAX)
+- **SQL** (PostgreSQL)
+- **Power BI** (Data Modeling, DAX, Dashboards, Slicers)
 - **Jupyter Notebook**
 - Data Cleaning & Preprocessing
 - Exploratory Data Analysis (EDA)
@@ -39,11 +39,11 @@ The dataset contains structured customer transaction data, including:
 
 ### 1️⃣ Data Ingestion & Preparation
 - Loaded raw CSV data into Python using Pandas  
-- Validated schema, data types, and data quality  
+- Validated schema, data types, and overall data quality  
 
 ### 2️⃣ Data Cleaning & Transformation
-- Handled missing values and duplicates  
-- Standardized columns and formats  
+- Handled missing values and duplicate records  
+- Standardized column names and data formats  
 - Prepared clean datasets for analysis and SQL ingestion  
 
 ### 3️⃣ Exploratory Data Analysis (EDA)
@@ -56,40 +56,49 @@ The dataset contains structured customer transaction data, including:
 ---
 
 ### 4️⃣ SQL Analytics
-- Imported cleaned data into relational databases  
-- Executed SQL queries using joins, aggregations, grouping, and filtering  
-- Analyzed customer-wise and category-wise performance  
+- Loaded the cleaned customer shopping dataset into a relational database (PostgreSQL)  
+- Wrote and executed SQL queries to perform:
+  - Customer-wise purchase and spending analysis  
+  - Category-wise sales and performance analysis  
+  - Aggregations using `SUM`, `COUNT`, `AVG`, and `GROUP BY`  
+  - Filtering using `WHERE`, `ORDER BY`, and `HAVING` clauses  
+- Used SQL to validate insights generated during Python-based EDA  
 
 **File:** `customer_shopping_behavior_sql_queires.sql`
 
 ---
 
 ### 5️⃣ Business Intelligence Dashboard (Power BI)
-- Developed interactive dashboards with slicers and filters  
-- Visualized KPIs, trends, and performance metrics  
-- Enabled stakeholder-friendly data exploration  
+- Imported the cleaned dataset into Power BI and created a structured data model  
+- Developed interactive dashboards to analyze:
+  - Customer distribution and segmentation  
+  - Category-wise and product-wise performance  
+  - Spending patterns and purchase trends  
+- Implemented slicers and filters to enable dynamic analysis by customer attributes and product categories  
+- Designed visuals to support stakeholder-friendly insight consumption and decision-making  
 
 **Dashboard:** `customer_shopping_behavior_bi.pbix`
 
 ---
 
 ### 6️⃣ Reporting & Presentation
-- Created a detailed analytics report summarizing findings  
-- Built a professional presentation using Gamma  
+- Created a detailed analytics report summarizing key findings  
+- Built a professional presentation using Gamma to communicate insights  
 - Exported reports and presentations as PDF for easy sharing  
 
 ---
 
 ## 📈 Key Results & Business Insights
-- Identified high-value customer segments  
+- Identified high-value customer segments based on spending behavior  
 - Highlighted top-performing product categories  
-- Discovered spending and purchasing patterns  
-- Supported data-driven marketing and sales strategies  
+- Discovered meaningful spending and purchasing patterns  
+- Generated insights to support data-driven marketing and sales strategies  
 
 ---
 
 ## 🗂 Project Structure
-  customer-shopping-behavior-analysis/
+
+customer-shopping-behavior-analysis/
 │
 ├── customer_shopping_behaviour_python_analysis.ipynb
 ├── customer_shopping_behavior.csv
@@ -106,25 +115,25 @@ The dataset contains structured customer transaction data, including:
 
 ### 🐍 Python
 1. Clone the repository  
-2. Install required libraries  
-3. Run the Jupyter Notebook  
+2. Install the required Python libraries  
+3. Open and run the Jupyter Notebook  
 
 ### 🗄 SQL
-1. Load data into PostgreSQL, MySQL, or SQL Server  
-2. Execute the provided SQL queries  
+1. Load the dataset into PostgreSQL, MySQL, or SQL Server  
+2. Execute the SQL queries provided  
 
 ### 📊 Power BI
 1. Open the `.pbix` file in Power BI Desktop  
-2. Refresh data  
-3. Explore dashboards interactively  
+2. Refresh the dataset if required  
+3. Explore dashboards using slicers and filters  
 
 ---
 
 ## 🧠 Resume-Ready Skills Demonstrated
-- Data Analysis & EDA  
+- Data Analysis & Exploratory Data Analysis (EDA)  
 - SQL Querying & Relational Databases  
-- Power BI Dashboard Development  
-- Data Cleaning & Transformation  
+- Power BI Data Modeling & Dashboard Development  
+- Data Cleaning & Data Transformation  
 - Business Intelligence Reporting  
 - Data-Driven Decision Making  
 
@@ -132,8 +141,9 @@ The dataset contains structured customer transaction data, including:
 
 ## 👤 Author
 **Teja Kesarapu**  
-Data Analyst / Business Intelligence Analyst
+Data Analyst / Business Intelligence Analyst  
+
+---
 
 ## 📜 License
 This project is licensed under the MIT License.
-
