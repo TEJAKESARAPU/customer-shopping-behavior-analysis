@@ -96,21 +96,6 @@ I worked with a structured customer transaction dataset containing:
 
 ---
 
-## 🗂 Project Structure
-
-customer-shopping-behavior-analysis/
-│
-├── customer_shopping_behaviour_python_analysis.ipynb
-├── customer_shopping_behavior.csv
-├── customer_shopping_behavior_sql_queires.sql
-├── customer_shopping_behavior_bi.pbix
-├── Customer Shopping Behavior Analysis.pdf
-├── Customer_Shopping_Behavior_Analysis_presentation.pdf
-└── README.md
-
-
----
-
 ## ▶️ How to Run
 
 ### 🐍 Python
